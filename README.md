@@ -1,10 +1,10 @@
-# SpringBoot
+# SpringCloud
 
-## New SpringBoot project
+## New SpringCloud project
 
 * In an empty folder, execute this command :
 ```
-genjs start springboot
+genjs start springcloud
 ```
 
 ## Prerequites

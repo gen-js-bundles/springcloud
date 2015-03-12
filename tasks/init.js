@@ -36,7 +36,7 @@ module.exports = {
         name: "Spring Cloud - Config Server",
         value: {
           groupId: "org.springframework.cloud",
-          artifactId: "spring-cloud-config-client",
+          artifactId: "spring-cloud-config-server",
           isSpringCloud: true
         }
       }

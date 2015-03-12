@@ -10,21 +10,6 @@ module.exports = {
 
     var dependenciesChoices = [
       {
-        name: "Test - Spring Boot Test",
-	value: {
-          groupId: "org.springframework.boot",
-          artifactId: "spring-boot-starter-test",
-          scope: "test"
-        }
-      },
-      {
-        name: "Security",
-        value: {
-          groupId: "org.springframework.boot",
-          artifactId: "spring-boot-starter-security"
-        }
-      },
-      {
         name: "Spring Cloud - Eureka",
         value: {
           groupId: "org.springframework.cloud",
@@ -39,6 +24,22 @@ module.exports = {
           artifactId: "spring-cloud-config-server",
           isSpringCloud: true
         }
+      },
+      {
+        name: "Security",
+        value: {
+          groupId: "org.springframework.boot",
+          artifactId: "spring-boot-starter-security"
+        }
+      },
+      {
+        name: "Test - Spring Boot Test",
+	value: {
+          groupId: "org.springframework.boot",
+          artifactId: "spring-boot-starter-test",
+          scope: "test"
+        },
+        checked: true
       }
     ];
 

@@ -27,6 +27,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 <% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-turbine')) { %>
 @EnableTurbine
 <% } %>
+<% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-turbine-amqp')) { %>
+@EnableTurbineAmqp
+<% } %>
 public class Application {
 
     public static void main(String[] args) {

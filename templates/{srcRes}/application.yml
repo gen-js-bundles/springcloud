@@ -12,6 +12,18 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 <% } %>
 
+<% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-config-server')) { %>
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lchaboud/springcloudconfig
+<% } %>
+
 <%
   var security = entities.config.tags.security;
   if(security != null) {

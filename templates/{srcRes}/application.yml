@@ -1,7 +1,7 @@
-<% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-eureka-server')) { %>
 server:
-  port: 8761
+  port: <%= server.port %>
 
+<% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-eureka-server')) { %>
 eureka:
   instance:
     hostname: localhost
@@ -13,9 +13,6 @@ eureka:
 <% } %>
 
 <% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-config-server')) { %>
-server:
-  port: 8888
-
 spring:
   cloud:
     config:

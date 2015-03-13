@@ -21,7 +21,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lchaboud/springcloudconfig
+          uri: https://github.com/[user]/[repo]
 <% } %>
 
 <%

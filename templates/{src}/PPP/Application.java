@@ -15,6 +15,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 <% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-turbine')) { %>
 import org.springframework.cloud.netflix.turbine.EnableTurbine;
 <% } %>
+<% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-turbine-amqp')) { %>
+import org.springframework.cloud.netflix.turbine.amqp.EnableTurbineAmqp;
+<% } %>
 
 @SpringBootApplication
 <% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-eureka-server')) { %>

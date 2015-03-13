@@ -29,6 +29,14 @@ module.exports = {
         name: "Spring Cloud - Turbine",
         value: {
           groupId: "org.springframework.cloud",
+          artifactId: "spring-cloud-starter-turbine",
+          isSpringCloud: true
+        }
+      },
+      {
+        name: "Spring Cloud - Turbine AMQP",
+        value: {
+          groupId: "org.springframework.cloud",
           artifactId: "spring-cloud-starter-turbine-amqp",
           isSpringCloud: true
         }

@@ -29,7 +29,7 @@ module.exports = {
         name: "Spring Cloud - Turbine",
         value: {
           groupId: "org.springframework.cloud",
-          artifactId: "spring-cloud-netflix-turbine",
+          artifactId: "spring-cloud-starter-turbine-amqp",
           isSpringCloud: true
         }
       },

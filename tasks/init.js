@@ -26,6 +26,29 @@ module.exports = {
         }
       },
       {
+        name: "Spring Cloud - Hystrix",
+        value: {
+          groupId: "org.springframework.cloud",
+          artifactId: "spring-cloud-starter-hystrix",
+          isSpringCloud: true
+        }
+      },
+      {
+        name: "Spring Cloud - Hystrix Dashboard",
+        value: {
+          groupId: "org.springframework.cloud",
+          artifactId: "spring-cloud-starter-hystrix-dashboard",
+          isSpringCloud: true
+        }
+      },
+      {
+        name: "Spring Cloud - Actuator",
+        value: {
+          groupId: "org.springframework.boot",
+          artifactId: "spring-boot-starter-actuator"
+        }
+      },
+      {
         name: "Security",
         value: {
           groupId: "org.springframework.boot",

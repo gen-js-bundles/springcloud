@@ -12,6 +12,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 <% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-hystrix-dashboard')) { %>
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 <% } %>
+<% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-turbine')) { %>
+import org.springframework.cloud.netflix.turbine.EnableTurbine;
+<% } %>
 
 @SpringBootApplication
 <% if(has(all.config.tags.build.dependencies, 'artifactId', 'spring-cloud-starter-eureka-server')) { %>

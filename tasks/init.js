@@ -26,10 +26,10 @@ module.exports = {
         }
       },
       {
-        name: "Spring Cloud - Hystrix",
+        name: "Spring Cloud - Turbine",
         value: {
           groupId: "org.springframework.cloud",
-          artifactId: "spring-cloud-starter-hystrix",
+          artifactId: "spring-cloud-netflix-turbine",
           isSpringCloud: true
         }
       },
@@ -38,6 +38,14 @@ module.exports = {
         value: {
           groupId: "org.springframework.cloud",
           artifactId: "spring-cloud-starter-hystrix-dashboard",
+          isSpringCloud: true
+        }
+      },
+      {
+        name: "Spring Cloud - Hystrix",
+        value: {
+          groupId: "org.springframework.cloud",
+          artifactId: "spring-cloud-starter-hystrix",
           isSpringCloud: true
         }
       },

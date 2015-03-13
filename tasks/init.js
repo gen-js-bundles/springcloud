@@ -57,6 +57,13 @@ module.exports = {
         }
       },
       {
+        name: "Web",
+        value: {
+          groupId: "org.springframework.boot",
+          artifactId: "spring-boot-starter-web"
+        }
+      },
+      {
         name: "Security",
         value: {
           groupId: "org.springframework.boot",
